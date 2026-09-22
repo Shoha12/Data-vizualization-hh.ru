@@ -1,74 +1,72 @@
-# Проект. Анализ резюме HeadHunter
+# HeadHunter Resume Analysis
 
-## Оглавление
+## Table of Contents
 
-1. [Описание проекта](#описание-проекта)
-2. [Какой кейс решаем?](#какой-кейс-решаем)
-3. [Краткая информация о данных](#краткая-информация-о-данных)
-4. [Используемые технологии](#используемые-технологии)
-5. [Этапы работы над проектом](#этапы-работы-над-проектом)
-6. [Результат](#результат)
-7. [Выводы](#выводы)
-
----
-
-## Описание проекта
-
-В рамках проекта выполнен разведывательный анализ данных (EDA) базы резюме сервиса **HeadHunter**.
-
-В ходе работы были исследованы структура данных, выполнено преобразование признаков, проведён анализ зависимостей между признаками, очищены данные от пропусков и выбросов, а также построены информативные визуализации.
-
-⬆️ [К оглавлению](#оглавление)
+1. [About the Project](#about-the-project)
+2. [Project Goal](#project-goal)
+3. [About the Data](#about-the-data)
+4. [Tools](#tools)
+5. [Project Steps](#project-steps)
+6. [Results](#results)
+7. [Conclusion](#conclusion)
 
 ---
 
-## Какой кейс решаем?
+## About the Project
 
-Необходимо провести полный разведывательный анализ данных (EDA) и подготовить данные для дальнейшего использования в задачах машинного обучения.
+In this project, I analyzed resume data from **HeadHunter**.
 
-В ходе проекта необходимо:
+I explored the data, created and changed features, analyzed relationships between them, cleaned missing values and outliers, and created visualizations.
 
-- исследовать структуру данных;
-- преобразовать признаки;
-- провести анализ распределений;
-- исследовать взаимосвязи между признаками;
-- очистить данные от пропусков;
-- обнаружить и удалить выбросы;
-- сделать выводы по результатам анализа.
-
-⬆️ [К оглавлению](#оглавление)
+⬆️ [Back to Table of Contents](#table-of-contents)
 
 ---
 
-## Краткая информация о данных
+## Project Goal
 
-Используется датасет резюме сервиса **HeadHunter**.
+The main goal was to perform Exploratory Data Analysis (EDA) and prepare the data for future analysis and Machine Learning.
 
-Набор данных содержит информацию о:
+During the project, I:
 
-- возрасте;
-- поле;
-- образовании;
-- городе проживания;
-- желаемой заработной плате;
-- опыте работы;
-- типе занятости;
-- графике работы;
-- готовности к переезду и командировкам.
+- explored the dataset;
+- transformed features;
+- analyzed data distributions;
+- analyzed relationships between features;
+- worked with missing values;
+- found and removed outliers;
+- made conclusions from the analysis.
 
-> **Датасет не загружен в репозиторий**, так как его размер превышает ограничения GitHub.
-
-**Ссылка на данные:**
-
-(https://drive.google.com/file/d/15tOqs1Q0MhcsEgW-33Bqzoq2dr3YaLvZ/view?usp=sharing)
-
-⬆️ [К оглавлению](#оглавление)
+⬆️ [Back to Table of Contents](#table-of-contents)
 
 ---
 
-## Используемые технологии
+## About the Data
 
-В проекте использовались:
+The project uses resume data from **HeadHunter**.
+
+The dataset contains information about:
+
+- age;
+- gender;
+- education;
+- city;
+- expected salary;
+- work experience;
+- employment type;
+- work schedule;
+- relocation and business trip preferences.
+
+> **The dataset is not included in the repository because the file is too large for GitHub.**
+
+**Dataset:**
+
+https://drive.google.com/file/d/15tOqs1Q0MhcsEgW-33Bqzoq2dr3YaLvZ/view?usp=sharing
+
+⬆️ [Back to Table of Contents](#table-of-contents)
+
+---
+
+## Tools
 
 - Python
 - NumPy
@@ -78,41 +76,43 @@
 - Plotly
 - Jupyter Notebook
 
-⬆️ [К оглавлению](#оглавление)
+⬆️ [Back to Table of Contents](#table-of-contents)
 
 ---
 
-## Этапы работы над проектом
+## Project Steps
 
-1. Исследование структуры данных.
-2. Преобразование признаков.
-3. Разведывательный анализ данных.
-4. Очистка данных.
-5. Поиск и удаление выбросов.
-6. Формулировка выводов.
+1. Data exploration.
+2. Feature transformation.
+3. Exploratory Data Analysis.
+4. Data cleaning.
+5. Finding and removing outliers.
+6. Making conclusions.
 
-⬆️ [К оглавлению](#оглавление)
-
----
-
-## Результат
-
-В результате выполнения проекта были исследованы данные резюме HeadHunter, выполнено преобразование признаков, проведён разведывательный анализ, выявлены закономерности между характеристиками соискателей, обработаны пропуски и удалены аномальные наблюдения.
-
-Полученный набор данных готов для дальнейшего анализа и построения моделей машинного обучения.
-
-⬆️ [К оглавлению](#оглавление)
+⬆️ [Back to Table of Contents](#table-of-contents)
 
 ---
 
-## Выводы
+## Results
 
-В ходе проекта были закреплены практические навыки:
+I analyzed HeadHunter resume data and found different patterns in the data.
 
-- работы с библиотеками NumPy и Pandas;
-- исследования и очистки данных;
-- поиска пропусков и выбросов;
-- построения визуализаций с помощью Matplotlib, Seaborn и Plotly;
-- интерпретации результатов разведывательного анализа данных.
+I transformed features, worked with missing values and outliers, and created visualizations to better understand the dataset.
 
-⬆️ [К оглавлению](#оглавление)
+The cleaned data can be used for further analysis and Machine Learning tasks.
+
+⬆️ [Back to Table of Contents](#table-of-contents)
+
+---
+
+## Conclusion
+
+This project helped me practice:
+
+- working with NumPy and Pandas;
+- data cleaning and data analysis;
+- working with missing values and outliers;
+- creating visualizations with Matplotlib, Seaborn and Plotly;
+- understanding and explaining EDA results.
+
+⬆️ [Back to Table of Contents](#table-of-contents)
